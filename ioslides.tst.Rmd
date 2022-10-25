@@ -1,0 +1,44 @@
+---
+title: "Untitled"
+author: "author"
+date: "10/6/2022"
+output: 
+  ioslides_presentation:
+    css: ./css/styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# In the morning | What I like to do first
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+## Breakfast
+
+- Eat eggs
+- Drink coffee
+
+# In the evening
+
+## Dinner
+  <div class="columns-2">
+  ![](.\images\word.png)
+
+- Eat spaghetti
+- Drink wine
+ </div>
+---
+
+```{r, cars, fig.cap="A scatterplot.", echo=FALSE}
+plot(cars)
+```
+
+## Going to sleep
+
+- Get in bed
+- Count sheep
